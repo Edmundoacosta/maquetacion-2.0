@@ -1,0 +1,73 @@
+.boxes {
+  display: flex;
+}
+
+.boxes--row {
+  flex-direction: row;
+}
+
+.boxes--row-inverse {
+  flex-direction: row-reverse;
+}
+
+.boxes--row-inverse .box {
+  margin-left: 10px;
+}
+
+.boxes--column .box, .boxes--column-inverse .box {
+  margin: 10px 0px;
+}
+
+.box {
+  background: black;
+  color: white;
+  height: 50px;
+  margin-right: 10px;
+  text-align: center;
+  width: 50px;
+}
+
+.box:last-child {
+  margin-right: 0;
+}
+
+.flex-start {
+  justify-content: flex-start;
+}
+
+.flex-end {
+  justify-content: flex-end;
+}
+
+.center {
+  justify-content: center;
+}
+
+.space-between {
+  justify-content: space-between;
+}
+
+.space-around {
+  justify-content: space-around;
+}
+
+.box-align-items .boxes {
+  height: 200px;
+  background: cyan;
+}
+
+.boxes--center {
+  align-items: center;
+}
+
+.boxes--start {
+  align-items: flex-start;
+}
+
+.boxes--end {
+  align-items: flex-end;
+}
+
+.boxes--strech {
+  align-items: stretch;
+}
