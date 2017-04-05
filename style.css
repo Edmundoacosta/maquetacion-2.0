@@ -1,0 +1,13 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.block {
+  border: 1px solid green;
+  height: 40px;
+  margin: 10px 0px;
+  width: calc(50% - 2px);
+  float: left;
+}
