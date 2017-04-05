@@ -1,0 +1,13 @@
+table th {
+  background: #f4f5f6;
+}
+
+tr:hover {
+  background: cyan;
+}
+
+
+table{
+  width: 100%;
+  border: 1px solid #black;
+}
